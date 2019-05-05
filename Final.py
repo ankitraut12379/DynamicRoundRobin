@@ -81,6 +81,6 @@ def main():
 	print(Arrival)
 	Scheduling(Arrival,Burst)
 	y=(time.time()-x)
-	print(y) #Time taken
+	print("Time Taken by Scheduler - ",y) #Time taken
 if __name__ == '__main__':
 	main()
